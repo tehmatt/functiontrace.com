@@ -13,85 +13,81 @@
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
 	<body class="is-preload">
-
-		<!-- Header -->
-			<header id="header">
-				<div class="content">
-					<h1><a href="#">FunctionTrace</a></h1>
-					<p>A graphical Python profiler that provides a clear view of your application's execution while being both low-overhead and easy to use.</p>
-					<ul class="actions">
-						<li><a href="#" class="button primary icon solid fa-download">Download</a></li>
-						<li><a href="https://profiler.firefox.com/from-url/https%3A%2F%2Fbox.programsareproofs.com%2Ffiles%2Fprofile_rust.json/stack-chart/?" target="_blank"class="button icon solid fa-running">Live Demo</a></li>
-						<li><a href="#pitch" class="button icon solid fa-chevron-down scrolly">Learn More</a></li>
-					</ul>
-				</div>
-				<div class="image main"><div class="inner"><img src="images/multi_thread.png" alt="" /></div></div>
-			</header>
-
-		<!-- One -->
-			<section id="pitch" class="wrapper special">
-					<h2>Quickly see everything your application is doing, without modifying any of your code</h2>
-					<div class="content">
-						<p>FunctionTrace can be called on existing Python applications with absolutely no modifications, and provides a complete and precise view of your application's entire execution.  You'll see what functions your various Python processes and threads executed over time, when and what information was logged, where allocations occurred, and more.</p>
-						<p>FunctionTrace supports all of the useful profiling views, including Stack Charts, Flame Graphs, and Call Trees, thanks to its integration with the <a href=https://profiler.firefox.com/">Firefox Profiler</a>.</p>
-					</div>
-
-					<ul class="icons labeled">
-						<li><span class="icon solid fa-python"><span class="label">Supports Python 3.5+</span></span></li>
-						<li><span class="icon solid fa-desktop"><span class="label">Runs on Linux and Mac OS</span></span></li>
-						<li><span class="icon solid fa-cloud"><span class="label">Profile locally or share online</span></span></li>
-						<li><span class="icon solid fa-code"><span class="label">No code modification needed</span></span></li>
-					</ul>
-			</section>
-
-		<!-- Two -->
-			<section id="two" class="wrapper">
-				<div class="inner alt">
-					<section class="spotlight">
-						<div class="image"><img src="images/multi_process_small.png" alt="Shown profiling an application with three processes and six threads" /></div>
-						<div class="content">
-							<h3>Profile multithread and multiprocess applications with ease</h3>
-							<p>See precise profiling information throughout your entire application, rather than being limited to just one process or thread.</p>
-						</div>
-					</section>
-					<section class="spotlight">
-						<div class="image"><img src="images/allocations.png" alt="" /></div>
-						<div class="content">
-							<h3>Trace memory allocations throughout your application</h3>
-							<p>FunctionTrace can track allocations and frees throughout function calls in your application, telling you where to focus your optimization efforts.</p>
-						</div>
-					</section>
-					<section class="spotlight">
-						<div class="image"><img src="images/precise_profile.png" alt="Shown profiling function calls taking fractions of a millisecond" /></div>
-						<div class="content">
-							<h3>Profiling is non-sampled and low-overhead</h3>
-							<p>You'll never miss small but interesting function calls when looking at a FunctionTrace profile, as all information is recorded.  You also don't need to pay for this - profiling overhead is &lt;10%, even on complex applications.</p>
-						</div>
-					</section>
-					<section class="spotlight">
-						<div class="image"><img src="images/pic03.jpg" alt="" /></div>
-						<!-- todo: image of collaboration via Slack -->
-						<div class="content">
-							<h3>Profiles can easily be uploaded and shared</h3>
-							<p>When a developer encounters a bug or performance issue, they can easily send the recorded FunctionTrace profile to their team, allowing multiple people to investigate the issue without needing to reproduce it.</p>
-						</div>
-					</section>
-				</div>
-			</section>
-
-			<!-- DEMO OF TEMPLATE FEATURES
-			<section id="three" class="wrapper style2 special">
-				<header class="major">
-					<h2>Magna leo sapien gravida</h2>
-					<p>Gravida at leo elementum elit fusce accumsan dui libero, quis vehicula<br />
-					lectus ultricies eu. In convallis amet leo sapien iaculis efficitur.</p>
-				</header>
-				<ul class="actions special">
-					<li><a href="#" class="button primary icon solid fa-download">Download</a></li>
-					<li><a href="#" class="button">Learn More</a></li>
+		<header id="header">
+			<div class="content">
+				<h1><a href="#">FunctionTrace</a></h1>
+				<p>A graphical Python profiler that provides a clear view of your application's execution while being both low-overhead and easy to use.</p>
+				<ul class="actions">
+					<li><a href="#installation" class="button primary icon solid fa-download">Install</a></li>
+					<li><a href="https://profiler.firefox.com/from-url/https%3A%2F%2Fbox.programsareproofs.com%2Ffiles%2Fprofile_demo.json/stack-chart/?" target="_blank"class="button icon solid fa-running">Live Demo</a></li>
+					<li><a href="#pitch" class="button icon solid fa-chevron-down scrolly">Learn More</a></li>
 				</ul>
-			</section>
+			</div>
+			<div class="image main"><div class="inner"><img src="images/multi_thread.png" alt="" /></div></div>
+		</header>
 
+		<section id="pitch" class="wrapper special">
+				<h2>Quickly see everything your application is doing, without modifying any of your code</h2>
+				<div class="content">
+					<p>FunctionTrace can be called on existing Python applications with absolutely no modifications, and provides a complete and precise view of your application's entire execution.  You'll see what functions your various Python processes and threads executed over time, when and what information was logged, where allocations occurred, and more.</p>
+					<p>FunctionTrace supports all of the useful profiling views you're familiar with, including Stack Charts, Flame Graphs, and Call Trees, thanks to its integration with the <a href=https://profiler.firefox.com/">Firefox Profiler</a>.</p>
+				</div>
+
+				<ul class="icons labeled">
+					<li><span class="icon solid fa-python"><span class="label">Supports Python 3.5+</span></span></li>
+					<li><span class="icon solid fa-desktop"><span class="label">Runs on Linux and Mac OS</span></span></li>
+					<li><span class="icon solid fa-cloud"><span class="label">Profile locally or share online</span></span></li>
+					<li><span class="icon solid fa-code"><span class="label">No code modification needed</span></span></li>
+				</ul>
+		</section>
+
+		<section id="features" class="wrapper style2">
+			<header class="major">
+				<h2>Features</h2>
+			</header>
+			<div class="inner alt">
+				<section class="spotlight">
+					<div class="image"><img src="images/multi_process_small.png" alt="Shown profiling an application with three processes and six threads" /></div>
+					<div class="content">
+						<h3>Profile multithread and multiprocess applications with ease</h3>
+						<p>See precise profiling information throughout your entire application, rather than being limited to just one process or thread.</p>
+					</div>
+				</section>
+				<section class="spotlight">
+					<div class="image"><img src="images/allocations.png" alt="Shown profiling memory with a flame graph of allocations" /></div>
+					<div class="content">
+						<h3>Trace memory allocations throughout your application</h3>
+						<p>FunctionTrace can track allocations throughout function calls in your application, telling you where to focus your optimization efforts.</p>
+					</div>
+				</section>
+				<section class="spotlight">
+					<div class="image"><img src="images/precise_profile.png" alt="Shown profiling function calls taking fractions of a millisecond" /></div>
+					<div class="content">
+						<h3>Profiling is non-sampled and low-overhead</h3>
+						<p>You'll never miss small but interesting function calls when looking at a FunctionTrace profile, as all information is recorded.  You also don't need to pay for this - profiling overhead is &lt;10%, even on complex applications.</p>
+					</div>
+				</section>
+				<section class="spotlight">
+					<div class="image"><img src="images/pic03.jpg" alt="" /></div>
+					<!-- todo: image of collaboration via Slack -->
+					<div class="content">
+						<h3>Profiles can easily be uploaded and shared</h3>
+						<p>When a developer encounters a bug or performance issue, they can easily send the recorded FunctionTrace profile to their team, allowing multiple people to investigate the issue without needing to reproduce it.</p>
+					</div>
+				</section>
+			</div>
+		</section>
+
+		<section id="installation" class="wrapper special">
+			<header class="major">
+				<h2>Installation</h2>
+			</header>
+			<section>
+				FunctionTrace will be publically released soon.
+			</section>
+		</section>
+
+		<!--
 			<section id="four" class="wrapper">
 				<div class="inner">
 
@@ -352,16 +348,11 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 
 				</div>
 			</section>
+		-->
 
-			<footer id="footer">
-				<ul class="icons">
-					<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-					<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-					<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-				</ul>
-				<p class="copyright">&copy; Untitled. Credits: <a href="http://html5up.net">HTML5 UP</a></p>
-			</footer>
-			-->
+		<footer id="footer">
+			<p class="copyright">FunctionTrace &copy; 2020</p>
+		</footer>
 
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
