@@ -109,9 +109,16 @@
 
 					<h3>Tracing Your Application</h3>
 					<p>
-					To trace a Python application <i>Foo.py</i>, load it via the <code>functiontrace</code> module:
-					<pre><code>$ python <b>-m functiontrace</b> Foo.py arguments_for_foo</pre></code>
-					By default, FunctionTrace will emit a trace file (in the form of <code>functiontrace.<i>time</i>.json</code>) to the current directory, though the location can be controlled via the <code>--output_dir</code> switch when running <code>functiontrace</code>.
+					To trace a Python application <i>Foo.py</i>, load it via <code>functiontrace</code>:
+					<pre><code>$ <b>functiontrace</b> Foo.py arguments_for_foo</code></pre>
+					</p>
+
+					<p>
+					Alternatively, you can modify your code to start tracing at some point during its runtime:
+					<pre><code>$ import functiontrace
+functiontrace.trace()
+</code></pre>
+					By default, FunctionTrace will emit a trace file (in the form of <code>functiontrace.<i>time</i>.json</code>) to the current directory, though the location can be controlled via the <code>--output-dir</code> switch when running <code>functiontrace</code>.
 					</p>
 
 					<h3>Viewing Traces</h3>
@@ -132,7 +139,7 @@
 		</section>
 
 		<footer id="footer">
-			FunctionTrace was created by <a href="https://programsareproofs.com">Matt Bryant</a> and Alistair Dobke, and is <a href="https://gitlab.com/mbryant/functiontrace">Open Source</a>.
+			FunctionTrace was created by <a href="https://programsareproofs.com">Matt Bryant</a> and Alistair Dobke, and is <a href="https://gitlab.com/mbryant/functiontrace">open sourced</a> under the <a href="https://gitlab.com/mbryant/functiontrace/-/blob/master/LICENSE.md">Prosperity Public License 3.0</a> with dual licensing available.<br>
 		</footer>
 
 		<!-- Scripts -->
