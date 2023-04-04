@@ -88,10 +88,15 @@
 					<h2>Installation and Use</h2>
 				</header>
 				<section>
+					<h3>Installing FunctionTrace (Nix)</h3>
+					<p>
+					If you use Nix, you can easily try a recent version of FunctionTrace with <code>nix-shell -p functiontrace</code>, or install it via `pkgs.functiontrace`.
+					</p>
+						
 					<h3>Installing FunctionTrace (Linux/Mac)</h3>
 					<p>
 					FunctionTrace comes in two necessary pieces: a server, and a language-specific client.<br>
-					<i>Note: It's currently necessary to have <code>cargo</code> installed in order to install FunctionTrace, as <code>functiontrace-server</code> is not yet packaged for the various supported operating systems.  You can install cargo via <b><a href="https://rustup.rs/" target="_blank">rustup</a></b>.</i><br>
+					<i>Note: It's currently necessary to have <code>cargo</code> installed in order to install FunctionTrace, as <code>functiontrace-server</code> is not packaged for all supported operating systems.  You can install cargo via <b><a href="https://rustup.rs/" target="_blank">rustup</a></b>.</i><br>
 					</p>
 					<pre><code><i># Install the server</i>
 <b>$ <a href="https://crates.io/crates/functiontrace-server" target="_blank">cargo install functiontrace-server</a></b>
