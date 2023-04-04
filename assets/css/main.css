@@ -115,7 +115,7 @@ input, select, textarea {
 /* Type */
 
 	body {
-		color: #666666;
+		color: #444;
 	}
 
 	html, input, select, textarea {
@@ -308,7 +308,7 @@ input, select, textarea {
 	}
 
 	input, select, textarea {
-		color: #666666;
+		color: #444;
 	}
 
 	a {
@@ -321,11 +321,11 @@ input, select, textarea {
 		}
 
 	strong, b {
-		color: #828282;
+		color: #444;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #828282;
+		color: #444;
 	}
 
 	blockquote {
@@ -1942,7 +1942,7 @@ input, select, textarea {
 	button,
 	.button {
 		background-color: transparent;
-		color: #828282 !important;
+		color: #444 !important;
 		box-shadow: inset 0 0 0 2px #e6e6e6;
 	}
 
@@ -2041,7 +2041,7 @@ input, select, textarea {
 	}
 
 		select option {
-			color: #828282;
+			color: #444;
 			background: #ffffff;
 		}
 
@@ -2155,7 +2155,7 @@ input, select, textarea {
 	}
 
 	label {
-		color: #828282;
+		color: #444;
 	}
 
 	input[type="text"],
@@ -2183,7 +2183,7 @@ input, select, textarea {
 
 	input[type="checkbox"] + label,
 	input[type="radio"] + label {
-		color: #666666;
+		color: #444;
 	}
 
 		input[type="checkbox"] + label:before,
@@ -2637,7 +2637,7 @@ input, select, textarea {
 			ul.icons.labeled li .icon .label {
 				display: inline-block;
 				vertical-align: middle;
-				color: #666666;
+				color: #444;
 			}
 
 	@media screen and (max-width: 736px) and (orientation: portrait) {
@@ -2897,7 +2897,7 @@ input, select, textarea {
 		}
 
 	table th {
-		color: #828282;
+		color: #444;
 	}
 
 	table thead {
@@ -3136,7 +3136,7 @@ input, select, textarea {
 
 		.wrapper.style2 {
 			background-color: #f0f0f0;
-			color: #666666;
+			color: #444;
 		}
 
 			.wrapper.style2 input[type="submit"],
@@ -3145,7 +3145,7 @@ input, select, textarea {
 			.wrapper.style2 button,
 			.wrapper.style2 .button {
 				background-color: transparent;
-				color: #828282 !important;
+				color: #444 !important;
 				box-shadow: inset 0 0 0 2px #e6e6e6;
 			}
 
@@ -3192,7 +3192,7 @@ input, select, textarea {
 					}
 
 			.wrapper.style2 label {
-				color: #828282;
+				color: #444;
 			}
 
 			.wrapper.style2 input[type="text"],
@@ -3220,7 +3220,7 @@ input, select, textarea {
 
 			.wrapper.style2 input[type="checkbox"] + label,
 			.wrapper.style2 input[type="radio"] + label {
-				color: #666666;
+				color: #444;
 			}
 
 				.wrapper.style2 input[type="checkbox"] + label:before,
@@ -3299,7 +3299,7 @@ input, select, textarea {
 				}
 
 			.wrapper.style2 table th {
-				color: #828282;
+				color: #444;
 			}
 
 			.wrapper.style2 table thead {
@@ -3315,7 +3315,7 @@ input, select, textarea {
 			}
 
 			.wrapper.style2 input, .wrapper.style2 select, .wrapper.style2 textarea {
-				color: #666666;
+				color: #444;
 			}
 
 			.wrapper.style2 a {
@@ -3328,11 +3328,11 @@ input, select, textarea {
 				}
 
 			.wrapper.style2 strong, .wrapper.style2 b {
-				color: #828282;
+				color: #444;
 			}
 
 			.wrapper.style2 h1, .wrapper.style2 h2, .wrapper.style2 h3, .wrapper.style2 h4, .wrapper.style2 h5, .wrapper.style2 h6 {
-				color: #828282;
+				color: #444;
 			}
 
 			.wrapper.style2 blockquote {
@@ -3350,7 +3350,7 @@ input, select, textarea {
 
 		.wrapper.style3 {
 			background-color: #f7f7f7;
-			color: #666666;
+			color: #444;
 		}
 
 			.wrapper.style3 input[type="submit"],
@@ -3359,7 +3359,7 @@ input, select, textarea {
 			.wrapper.style3 button,
 			.wrapper.style3 .button {
 				background-color: transparent;
-				color: #828282 !important;
+				color: #444 !important;
 				box-shadow: inset 0 0 0 2px #d6d6d6;
 			}
 
@@ -3406,7 +3406,7 @@ input, select, textarea {
 					}
 
 			.wrapper.style3 label {
-				color: #828282;
+				color: #444;
 			}
 
 			.wrapper.style3 input[type="text"],
@@ -3434,7 +3434,7 @@ input, select, textarea {
 
 			.wrapper.style3 input[type="checkbox"] + label,
 			.wrapper.style3 input[type="radio"] + label {
-				color: #666666;
+				color: #444;
 			}
 
 				.wrapper.style3 input[type="checkbox"] + label:before,
@@ -3513,7 +3513,7 @@ input, select, textarea {
 				}
 
 			.wrapper.style3 table th {
-				color: #828282;
+				color: #444;
 			}
 
 			.wrapper.style3 table thead {
@@ -3529,7 +3529,7 @@ input, select, textarea {
 			}
 
 			.wrapper.style3 input, .wrapper.style3 select, .wrapper.style3 textarea {
-				color: #666666;
+				color: #444;
 			}
 
 			.wrapper.style3 a {
@@ -3542,11 +3542,11 @@ input, select, textarea {
 				}
 
 			.wrapper.style3 strong, .wrapper.style3 b {
-				color: #828282;
+				color: #444;
 			}
 
 			.wrapper.style3 h1, .wrapper.style3 h2, .wrapper.style3 h3, .wrapper.style3 h4, .wrapper.style3 h5, .wrapper.style3 h6 {
-				color: #828282;
+				color: #444;
 			}
 
 			.wrapper.style3 blockquote {
@@ -4074,14 +4074,14 @@ input, select, textarea {
 
 	#footer {
 		background-color: #f7f7f7;
-		color: #666666;
+		color: #444;
 		padding: 2em 0 2em 0 ;
 		color: #b0b0b0;
 		text-align: center;
 	}
 
 		#footer input, #footer select, #footer textarea {
-			color: #666666;
+			color: #444;
 		}
 
 		#footer a {
@@ -4094,11 +4094,11 @@ input, select, textarea {
 			}
 
 		#footer strong, #footer b {
-			color: #828282;
+			color: #444;
 		}
 
 		#footer h1, #footer h2, #footer h3, #footer h4, #footer h5, #footer h6 {
-			color: #828282;
+			color: #444;
 		}
 
 		#footer blockquote {
